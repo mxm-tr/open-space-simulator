@@ -144,7 +144,7 @@ const storyData = {
         ]
     },
     161: {
-        "text": "Vous prenez l'ascenceur, et alourdissez votre bilan carbone, qui de toute façon est déjà bien lourd depuis vos dernières vacances à l’autre bout du monde.",
+        "text": "Vous prenez l’ascenseur, et alourdissez votre bilan carbone, qui de toute façon est déjà bien lourd depuis vos dernières vacances à l’autre bout du monde.",
         "coinflip": [
             { "label": "Pile ", "nextId": 17 },
             { "label": "Face ", "nextId": 18 }
@@ -402,7 +402,7 @@ const storyData = {
         ]
     },
     43: {
-        "text": "C'était un appel pour utiliser votre compte CPF, mais au moins vous avez pu échapper à l'histoire du boomerang à traver les âges...! Vous regardez votre montre, 16h30.",
+        "text": "C'était un appel pour utiliser votre compte CPF, mais au moins vous avez pu échapper à l'histoire du boomerang à travers les âges...! Vous regardez votre montre, 16h30.",
         "options": [
             { "label": "Oh, c'est l'heure de l'apéro!", "nextId": 361 },
             { "label": "Pas de repos pour les guerriers", "nextId": 362 }
