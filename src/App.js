@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import StoryCard from './components/StoryCard';
 import ChoiceButtons from './components/ChoiceButtons';
+import DropEmoji from './components/DropEmoji';
 import storyData from './data/storyData';
 import { Box, Container, Typography, Button } from '@mui/material';
 import backgroundImage from './assets/office.jpg'
@@ -66,6 +67,7 @@ function App() {
         >
           👔 Open Space Simulator
         </Typography>
+        {currentStory.emoji ? (<DropEmoji emoji={currentStory.emoji} count={50} />) : ""}
         <StoryCard text={currentStory.text} onTextLoadComplete={handleTextLoadComplete} />
 
         {/* Check if there are options or a coinflip */}
