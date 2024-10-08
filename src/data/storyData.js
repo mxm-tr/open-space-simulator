@@ -5,7 +5,7 @@ const storyData = {
             { "label": "Entre 5h et 7h", "nextId": 2 },
             { "label": "Entre 7h et 8h", "nextId": 3 },
             { "label": "Entre 8h et 10h", "nextId": 4 }
-        ]
+        ],
     },
     2: {
         "text": "Vous êtes bien matinal, normal vous avez ... avant d'aller au travail:",
@@ -416,27 +416,33 @@ const storyData = {
     },
     "E1": {
         "text": "Vous devenez N+2 à la place du N+2 et passez le reste de votre vie à siroter des Spritz rue de la Paix.",
-        "options": []
+        "options": [],
+        "emoji": "💸"
     },
     "E2": {
         "text": "Vous êtes viré, et touchez le chômage pendant les deux prochaines années. Un rêve devenu réalité, bravo !",
-        "options": []
+        "options": [],
+        "emoji": "🍑"
     },
     "E3": {
         "text": "Vous êtes mort, c’est pas grave c’est pas pour de vrai.",
-        "options": []
+        "options": [],
+        "emoji": "☠️"
     },
     "E4": {
-        "text": "Zut, la totalité de vos collègues étaient en train de passer des appels importants, et votre intervention a été la goutte d’eau qui a fait débordé le vase : l’entreprise perd instantanément ses plus gros clients et ses meilleurs fournisseurs, et se retrouve sur la paille. Vous voici en procédure de licenciement économique, félicitations !",
-        "options": []
+        "text": "Zut, la totalité de vos collègues étaient en train de passer des appels importants, et votre intervention a été la goutte d’eau qui a fait déborder le vase : l’entreprise perd instantanément ses plus gros clients et ses meilleurs fournisseurs, et se retrouve sur la paille. Vous voici en procédure de licenciement économique, félicitations !",
+        "options": [],
+        "emoji": "📉"
     },
     "E5": {
         "text": "Déjà que financièrement ça n’allait pas fort, vos dépenses déraisonnées vous mettent vraiment au fond du trou ! Vous croulez sous les dettes et finissez seul(e) et à la rue. Le bon côté des choses c’est que vous êtes maintenant locataire d’une tente Quechua à deux pas du bureau, le commute est beaucoup plus simple !",
-        "options": []
+        "options": [],
+        "emoji": "⛺"
     },
     "E6": {
         "text": "Bravo !!! Par votre professionnalisme et votre talent naturel, vous avez su briller auprès de vos pairs ! Vous êtes sans aucun doute sur la voie pour une belle et longue carrière ! Dans quelques année, celle-ci sera sûrement récompensée par une prime, et dans 20 ans par une médaille du travail que vous afficherez fièrement sur votre tombe. Bien joué !",
-        "options": []
+        "options": [],
+        "emoji": "🤘"
     }
 };
 
