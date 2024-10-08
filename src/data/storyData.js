@@ -411,7 +411,7 @@ const storyData = {
     44: {
         "text": "Vous regardez en bas. Avant de vous jeter dans le vide, votre dernière pensée est pour votre N+1 : Vous avez oublié de mettre la PJ dans votre précédent mail, c’est la troisième fois cette semaine.",
         "options": [
-            { "label": "C'est trop tard", "nextd": "E3"}
+            { "label": "C'est trop tard", "nextId": "E3"}
         ]
     },
     "E1": {
