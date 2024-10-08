@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent, Typography } from '@mui/material';
 
-const StoryCard = ({ text }) => {
+const StoryCard = ({ text, onTextLoadComplete }) => {
     const [displayedText, setDisplayedText] = useState('');
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -19,8 +19,13 @@ const StoryCard = ({ text }) => {
             }, 10); // Adjust typing speed (in ms)
 
             return () => clearTimeout(timer); // Cleanup on component unmount or re-render
+        } else {
+            // Notify that the text loading is complete once the whole text is rendered
+            if (onTextLoadComplete) {
+                onTextLoadComplete();
+            }
         }
-    }, [currentIndex, text]);
+    }, [currentIndex, onTextLoadComplete]);
 
     return (
         <Card sx={{ margin: '20px auto' }}>

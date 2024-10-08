@@ -7,17 +7,24 @@ import backgroundImage from './assets/office.jpg'
 
 function App() {
   const [currentStoryId, setCurrentStoryId] = useState(1);
+  const [loading, setLoading] = useState(true);
 
   // Handles user choices or coinflip results
   const handleChoice = (nextId) => {
+    setLoading(true);
     setCurrentStoryId(nextId);
   };
 
   // Handles coin flip, randomly selects an outcome
   const handleCoinflip = (coinflipOptions) => {
+    setLoading(true);
     const result = Math.random() < 0.5 ? 0 : 1; // 50/50 chance
     const nextId = coinflipOptions[result].nextId;
     setCurrentStoryId(nextId); // Navigate to the next part based on the coinflip
+  };
+
+  const handleTextLoadComplete = () => {
+    setLoading(false);  // Text has finished rendering
   };
 
   // Fetch the current story or fallback to a default message if the story is undefined
@@ -59,11 +66,11 @@ function App() {
         >
           👔 Open Space Simulator
         </Typography>
-        <StoryCard text={currentStory.text} />
+        <StoryCard text={currentStory.text} onTextLoadComplete={handleTextLoadComplete} />
 
         {/* Check if there are options or a coinflip */}
         {currentStory.options && currentStory.options.length > 0 ? (
-          <ChoiceButtons options={currentStory.options} handleChoice={handleChoice} />
+          <ChoiceButtons options={currentStory.options} handleChoice={handleChoice} disabled={loading} />
         ) : currentStory.coinflip ? (
           <Box textAlign="center" mt={2}>
             <Button
@@ -71,6 +78,7 @@ function App() {
               color="primary"
               onClick={() => handleCoinflip(currentStory.coinflip)}
               fullWidth
+              disabled={loading}
             >
               🪙 Pile ou Face ?
             </Button>

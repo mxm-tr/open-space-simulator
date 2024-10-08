@@ -28,7 +28,7 @@ const storyData = {
         ]
     },
     3: {
-        "text": "La journée commence bien: vous ouvrez les volets et entendez les oiseaux chanter, une légère brise vous rafraîchit les joues et un rayon de soleil vous éblouit. Direction la cuisine: vous préparez",
+        "text": "La journée commence bien : vous ouvrez les volets et entendez les oiseaux chanter, une légère brise vous rafraîchit les joues et un rayon de soleil vous éblouit. Direction la cuisine: vous préparez",
         "options": [
             { "label": "Un thé, deux tranches de bacon et un black pudding, à l'anglaise", "nextId": "3_1" },
             { "label": "Café jus de fruits, des céréales et du lait d'amande", "nextId": "3_1" }
@@ -215,7 +215,7 @@ const storyData = {
     24: {
         "text": "En sortant discrètement du restaurant, vous vous retrouvez nez-à-nez avec votre N+3 ! Celui-ci a eu la même idée que vous et vous regarde avec un air surpris. Il se met alors à complimenter votre « esprit d’initiative », qui couplée à une manifeste capacité à « saisir les opportunités », vous positionne en choix numéro un pour replacer votre N+2. Vous repartez vers le bureau goguenards, comme des amis de longue date.",
         "options": [
-            { "label": "Quelle audace !", "nextId": "E4" }
+            { "label": "Quelle audace !", "nextId": "E1" }
         ]
     },
     25: {
