@@ -50,11 +50,15 @@ const storyData = {
     },
     5: {
         "text": "Mmmm l'air frais, les paysages qui défilent et les poumons qui se décrassent, vive le jogging ! Votre playlist Spotify « Cardio running 2024 » à balle dans les AirPods, vous atteignez presque votre 8ème kilomètre et vous allez battre votre record personnel ! Pas question de s’arrêter, même pas au passage piéton ! Vous vous engagez en regardant du mauvais côté de la route.",
-        "nextId": "E3"
+        "options": [
+            { "label": "Vous entendez un klaxon assourdissant", "nextId": "E3" }
+        ]
     },
     6: {
         "text": "Ooopsie vous avez raté le réveil ! Les enfants sont levés depuis une heure et sont en pyjama devant les dessins animés, pas question d'aller au travail aujourd'hui. Vous les lancez à l'école en pyjama puis revenez pour commencer votre journée de télétravail.",
-        "nextId": 7
+        "options": [
+            { "label" : "Vous rentrez votre mot de passe" , "nextId": 7 }
+        ]
     },
     7: {
         "text": "Aaaah les joies du télétravail, loin des collègues et des codes imposés par la société patriarcale. Pas besoin de vous habiller, vous préférez plutôt:",
@@ -221,6 +225,218 @@ const storyData = {
             { "label": "Répondant à vos emails", "nextId": 29 },
 
         ]
+    },
+    26: {
+        "text": "Retour au bureau ! Vous pouvez enfin reprendre cette après-midi productive, mais avant...",
+        "options": [
+            { "label": "Vous vous dirigez vers la machine à café.", "nextId": 27 },
+            { "label": "Vous passez aux toilettes", "nextId": 28 },
+
+        ]
+    },
+    27: {
+        "text": "Ah rien de mieux qu’une petite pause à la machine ! Le café n’est peut-être pas le meilleur mais il vous garde éveillé et productif ! Après vous être servi(e) vous décidez de :",
+        "options": [
+            { "label": "Retourner travailler directement avec votre mug, pas de temps à perdre ", "nextId": 31 },
+            { "label": "Rester un peu et faire une page de mots fléchés", "nextId": 30 },
+
+        ]
+    },
+    28: {
+        "text": "En arrivant aux toilettes, vous vous retrouvez face à deux portes. Vous choisissez :",
+        "options": [
+            { "label": "La porte de droite", "nextId": 281 },
+            { "label": "La porte de gauche", "nextId": 282 },
+
+        ]
+    },
+    281: {
+        "text": "Vous ouvrez la porte et surprise : vous vous retrouvez face à votre N+2, et vous regarde avec surprise, un dossier à la main. \"Euh... bonjour,\" bafouille-t-il, visiblement embarrassé par la situation inattendue. Vous sentez une bouffée de gêne vous envahir alors que vous essayez de trouver quoi dire. Après un moment de silence tendu, il vous adresse un sourire crispé et vous demande d'un ton peu convaincant : \"Eh bien, puisque nous sommes ici, pourquoi ne pas discuter de ce rapport que vous devez me remettre aujourd'hui?\" Vous réalisez que cette rencontre fortuite pourrait bien déterminer l'avenir de votre carrière…",
+        "options": [
+            { "label": "Votre avenir professionnel", "nextId": "E1" },
+        ]
+    },
+    282: {
+        "text": "RAS, à part une trace suspecte au fond de la porcelaine, tout se passe bien et vous retournez vite vous asseoir à votre bureau, en vous demandant si le règlement intérieur ne devrait pas sanctionner ce ce genre de comportements…",
+        "options": [
+            { "label": "Un petit coup de brossette et vous avez bien mérité une petite pause", "nextId": 30 },
+        ]
+    },
+    29: {
+        "text": "Patatras ! Entre deux emails à votre supérieur, vous tapez votre bol de soupe encore fumante qui se déverse sur votre laptop… Une étincelle sort du ventilateur, un arc électrique traverse l’air, et et avant même de pouvoir réagir, vous sentez une douleur fulgurante vous parcourir le corps. Les muscles se contractent violemment, vous êtes figé, incapable de bouger. Le monde autour de vous semble devenir flou alors que la décharge électrique continue de vous traverser. Votre esprit vacille entre la réalité et un vide étrange.",
+        "options": [
+            { "label" : "Tout devient noir", "nextId": "E3" }
+        ]
+    },
+    30: {
+        "text": "Dans la salle de pause déserte, les mots fléchés du jour ne sont qu’à moitié faits et une chocolatine de la veille est encore dans son emballage : quelle chance ! Alors que vous vous délectez de ce larcin, un collègue s’approche à grands pas, l’air souriant. Souhaitez-vous lui parler ?",
+        "options": [
+            { "label" : "Oui", "nextId": 301 },
+            { "label" : "Non", "nextId": 302 }
+        ]
+    },
+    301: {
+        "text": "Vous le saluez, cela fait longtemps que vous ne l’aviez pas vu ! Une poignée de mains ferme et professionnelle s’ensuit",
+        "options": [
+            { "label": "Tunnel en approche", "nextId": 35 }
+        ]
+    },
+    302: {
+        "text": "Vous avez la technique pour ce genre de situation : vous dégainez votre téléphone et marchez d’un pas rapide et assuré, tête baissée.",
+        "options": [
+            { "label": "Tunnel évité!", "nextId": 36 }
+        ]
+    },
+    31: {
+        "text": "Trois formules excel plus tard, vous finissez enfin ce rapport sur l’orga des tickets Jira. Fier de votre travail, vous rédigez un mail au petit oignon pour votre N+1, avec en PJ le rapport terminé. ",
+        "options": [
+            { "label" : "Vous avez tellement hâte d'avoir les retours de votre chef, que vous envoyez l'email instantanément.", "nextId": 37 },
+            { "label" : "Vous prenez une petite pause bien méritée", "nextId": 30 }
+        ]
+    },
+    32: {
+        "text": "Vous êtes plongé dans votre travail, les yeux fixés sur l'écran. Rien ne peut vous déconcentrer, vous imaginez déjà les compliments que votre supérieur va vous faire au prochain 1-to-1 ! Soudain, une voix familière vous ramène à la réalité: \"Pause café ?\" Votre collègue, sourire aux lèvres, se tient derrière votre bureau, une tasse à la main. Vous hésitez un instant car vous étiez à deux doigts de finir votre tâche… Finalement vous :",
+        "options": [
+            { "label" : "Acceptez la proposition" , "nextId": 321 },
+            { "label" : "Refusez poliment", "nextId": 322 } 
+        ]
+    },
+    321: {
+        "text": "Vous rejoignez pour une pause bien méritée. Après tout, quelques minutes de jeux vidéos/dés/mots fléchés pourraient même vous rendre plus productif par la suite !",
+        "options": [
+            { "label" : "Cucurbitacé en 5 lettres ?", "nextId": 30 }
+        ]
+    },
+    322: {
+        "text": "Vous expliquez que vous êtes sur le point de terminer une tâche importante pour l’entreprise et ses actionnaires, et n'avez donc pas le temps pour un moment récréatif.", 
+        "options": [
+            { "label": "Casque sur les oreilles.", "nextId": 31 }
+        ]
+    },
+    33: {
+        "text": "Comment avez-vous pu oublier ça ? C’est aujourd’hui la présentation des objectifs Q1 de la fiscal year devant la hiérarchie, tout le monde vous attend au bureau depuis 15mn, vous décidez de :",
+        "options": [
+            { "label" : "Speeder jusqu'au bureau", "nextId": 331 },
+            { "label" : "Rester à la maison", "nextId": 332 }
+        ]
+    },
+    331: {
+        "text": "D’envoyer un petit « Sorry I’m late » à vos supérieurs, et foncer vers le bureau, ce qui devrait affirmer votre image de busy winner auprès de vos collègues",
+        "options": [
+            { "label": "En sueur mais en présentiel", "nextId": 34 }
+        ]
+    },
+    332: {
+        "text": "Vous faites la présentation à distance en prétextant une suspicion de COVID",
+        "options": [
+            { "label": "Kof kof, snif snif", "nextId": 12 }
+        ]
+    },
+    34: {
+        "text": "Après avoir grillé trois feux rouges, et avoir garé la voiture en double file, vous voici enfin arrivé devant les bureaux : votre N+1 vous appelle alors pour vous féliciter de la présentation que vous avez réalisé tout en s’excusant de n’avoir pas pu se libérer pour y assister. Vous écrivez un compte rendu et l’envoyez à votre hiérarchie en célébrant les achievements de la dernière fiscal year",
+        "options": [
+            { "label": "Une bonne chose de faite", "nextId": 13}
+        ]
+    },
+    35: {
+        "text": "Tu tombes bien, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).", 
+        "options": [
+            { "label": "Dis-m'en plus!", "nextId": 41 },
+            { "label": "Ah oui super, euh il faut que j'y aille !", "nextId": 41}
+        ]
+    },
+    36: {
+        "text": " Tunnel évité ! Vous auriez pu passer 30 minutes à écouter votre collègue baratiner des dingueries, mais vous y avez échappé. Vous regardez votre montre, 16h30.",
+        "options": [
+            { "label": "Oh, c'est l'heure de l'apéro!", "nextId": 361 },
+            { "label": "Pas de repos pour les guerriers", "nextId": 362 }
+        ]
+    },
+    361: {
+        "text" : "Vous motivez quelques collègues et finissez votre journée de travail en partageant quelques pintes avec eux.",
+        "options": [
+            { "label": "Tchin tchin!", "nextId": "E6" }
+        ]
+    },
+    362: {
+        "text": "Vous devez absolument préparer la réunion synchro des OKR FY26 avant demain. Ce n’est pas encore ce soir que vous pourrez lire l’histoire du soir à votre fille...",
+        "options": [
+            { "label": "Au boulot!!", "nextId": 40 }
+        ] 
+    },
+    37: {
+        "text": "A peine après avoir cliqué sur le bouton que vous vous rendez compte de votre erreur : La pièce jointe que vous avez sélectionné est un de vos nudes, la tuile. Quelques secondes plus tard, vous recevez un appel de votre N+1.",
+        "coinflip": [
+            { "label": "Pile: Chanceux!", "nextId": 38 },
+            { "label": "Face: Aïe, ça va chauffer", "nextId": 39 }
+        ]
+    },
+    38: {
+        "text": "Waouh! Quel corps! Quelle machine de guerre ! Tu as le plus beau corps que je n'ai jamais vu. Bravo. Tu transmettras mes félicitations à ta daronne. Je ne vois pas comment je pourrais être le chef d'une telle force de la nature. Prends ma place, je t'en supplie.",
+        "options": [
+            { "label": "Bien joué beau goss", "nextId": "E1" }
+        ]
+    },
+    39: {
+        "text": "Mais qu’est ce que c’est que cette PJ ? Vous vous foutez de la gueule du monde ? Je vous paye pour que vous vous fassiez bronzer la raie au cap d’agde ? Dégagez, je veux plus vous voir",
+        "options": [
+            { "label": "Faire vos adieux", "nextId": "E2" }
+        ]
+    },
+    40: {
+        "text": "Vous levez enfin la tête de votre ordinateur. Vous jetez un œil à l’horloge. 18H00. Quelle journée harassante. Vous vous étirez, et sentez que vous avez mal partout. La fenêtre ouverte laisse parvenir jusqu’à vous un faible courant d’air. Vous réalisez à quel point vous êtes fatigué de cette routine quotidienne. Et pour quel but ? Votre maigre salaire de 87k€ ? Vous vous levez.",
+        "options": [
+            { "label": "Vous diriger vers la fenêtre", "nextId": "44" }
+        ]
+    },
+    41: {
+        "text": "Et tu sais ce qu’il y a de fascinant ? C’est toute la physique derrière le lancer. T’imagines pas à quel point ça demande une maîtrise du vent, de l’angle, de la force. Un boomerang bien lancé peut revenir pile dans ta main, mais attention, si tu fais ne serait-ce qu’une petite erreur d’inclinaison… pouf, il finit à trois kilomètres dans les buissons ! Et puis y’a les compétitions de boomerang, tu savais qu’il y en avait ? Il y a des disciplines folles comme la vitesse, l’endurance et même la précision où tu dois attraper ton boomerang plusieurs fois en un temps record. Et le lancer artistique, t’as déjà vu ça ? Des figures complexes, des pirouettes… On est presque dans le cirque, mais avec un bout de bois !",
+        "options": [
+            { "label": "Je...", "nextId": 42 },
+        ]
+    },
+    42: {
+        "text": "Je suis même en train de m’entraîner pour maîtriser le \"trick catch\", c’est-à-dire attraper le boomerang en faisant des figures acrobatiques. Le top du top, c’est d’arriver à le rattraper en passant les bras derrière le dos. Je te dis pas le niveau de concentration que ça demande. Je me suis déjà fait mal plusieurs fois, mais quand tu réussis, c’est la gloire. Ah, le moment où il revient doucement dans ta paume, c’est… indescriptible.",
+        "options": [
+            { "label": "Votre téléphone sonne, vous répondez.", "nextId": 43 }
+        ]
+    },
+    43: {
+        "text": "C'était un appel pour utiliser votre compte CPF, mais au moins vous avez pu échapper à l'histoire du boomerang à traver les âges...! Vous regardez votre montre, 16h30.",
+        "options": [
+            { "label": "Oh, c'est l'heure de l'apéro!", "nextId": 361 },
+            { "label": "Pas de repos pour les guerriers", "nextId": 362 }
+        ]
+    },
+    44: {
+        "text": "Vous regardez en bas. Avant de vous jeter dans le vide, votre dernière pensée est pour votre N+1 : Vous avez oublié de mettre la PJ dans votre précédent mail, c’est la troisième fois cette semaine.",
+        "options": [
+            { "label": "C'est trop tard", "nextd": "E3"}
+        ]
+    },
+    "E1": {
+        "text": "Vous devenez N+2 à la place du N+2 et passez le reste de votre vie à siroter des Spritz rue de la Paix.",
+        "options": []
+    },
+    "E2": {
+        "text": "Vous êtes viré, et touchez le chômage pendant les deux prochaines années. Un rêve devenu réalité, bravo !",
+        "options": []
+    },
+    "E3": {
+        "text": "Vous êtes mort, c’est pas grave c’est pas pour de vrai.",
+        "options": []
+    },
+    "E4": {
+        "text": "Zut, la totalité de vos collègues étaient en train de passer des appels importants, et votre intervention a été la goutte d’eau qui a fait débordé le vase : l’entreprise perd instantanément ses plus gros clients et ses meilleurs fournisseurs, et se retrouve sur la paille. Vous voici en procédure de licenciement économique, félicitations !",
+        "options": []
+    },
+    "E5": {
+        "text": "Déjà que financièrement ça n’allait pas fort, vos dépenses déraisonnées vous mettent vraiment au fond du trou ! Vous croulez sous les dettes et finissez seul(e) et à la rue. Le bon côté des choses c’est que vous êtes maintenant locataire d’une tente Quechua à deux pas du bureau, le commute est beaucoup plus simple !",
+        "options": []
+    },
+    "E6": {
+        "text": "Bravo !!! Par votre professionnalisme et votre talent naturel, vous avez su briller auprès de vos pairs ! Vous êtes sans aucun doute sur la voie pour une belle et longue carrière ! Dans quelques année, celle-ci sera sûrement récompensée par une prime, et dans 20 ans par une médaille du travail que vous afficherez fièrement sur votre tombe. Bien joué !",
+        "options": []
     }
 };
 
