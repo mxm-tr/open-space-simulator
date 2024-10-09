@@ -98,13 +98,13 @@ const storyData = {
     "11_1": {
         "text": "Aucune chance, vous avez la technique du Youtube ouvert qui vous permet d’être affiché Disponible sur la messagerie instantanée.",
         "options": [
-            { "label": "Quel boss !", "nextId": 13 },
+            { "label": "Quel boss !", "nextId": 45 },
         ]
     },
     "11_2": {
         "text": "Comme un noob, vous n’avez rien prévu et votre ordinateur s’est mis en veille au bout de 10 minutes. Vous vous réveillez 3 heures plus tard, en panique, déverrouillez l’appareil et avez 5 appels manqués de votre supérieur.",
         "options": [
-            { "label": "Oops !", "nextId": 13 },
+            { "label": "Oops !", "nextId": 45 },
         ]
     },
     12: {
@@ -117,10 +117,9 @@ const storyData = {
     13: {
         "text": "Ça y est, c’est l’heure de manger, enfin ! Après une matinée bien remplie, vous vous permettez un petit break bien mérité.",
         "options": [
-            { "label": "Si vous êtes en télétravail : vous mangez chez vous devant votre série préférée, puis vous accordez une petite sieste…", "nextId": 11 },
-            { "label": "Si vous êtes au bureau : Vous vous joignez au groupe de personnes qui partent vers le restaurant", "nextId": 21 },
-            { "label": "Si vous êtes au bureau : Vous mangez votre gamelle devant votre écran, c’est bien plus économique !", "nextId": 25 },
-            { "label": "Si vous êtes au bureau : Vous partez faire un jogging, le sport c’est la santé !", "nextId": 5 }
+            { "label": "Vous vous joignez au groupe de personnes qui partent vers le restaurant", "nextId": 21 },
+            { "label": "Vous mangez votre gamelle devant votre écran, c’est bien plus économique !", "nextId": 25 },
+            { "label": "Vous partez faire un jogging, le sport c’est la santé !", "nextId": 5 }
         ]
     },
     14: {
@@ -195,7 +194,7 @@ const storyData = {
     21: {
         "text": "15 minutes de marche plus tard, vous arrivez au restaurant où vous attendez à nouveau 30 minutes avant de commencer l’entrée. Une heure encore et quelques verres de vin plus tard, vient le moment de payer l’addition :",
         "options": [
-            { "label": " Échauffé par le vin et la bonne compagnie, vous vous sentez d’humeur généreuse : c’est pour moi !", "nextId": 22 },
+            { "label": "Échauffé par le vin et la bonne compagnie, vous vous sentez d’humeur généreuse : c’est pour moi !", "nextId": 22 },
             { "label": "Vous vous souvenez de ce que vous avez commandé et avez déjà divisé le coût des bouteilles, vous proposez de partager", "nextId": 23 },
             { "label": "Votre spécialité c’est de vous faire oublier ! Vous vous rendez discrètement vers la sortie en feignant d’avoir payé, et laissez les autres s’en occuper ! Il n’y a pas de petites économies !", "nextId": 24 }
         ]
@@ -412,6 +411,44 @@ const storyData = {
         "text": "Vous regardez en bas. Avant de vous jeter dans le vide, votre dernière pensée est pour votre N+1 : Vous avez oublié de mettre la PJ dans votre précédent mail, c’est la troisième fois cette semaine.",
         "options": [
             { "label": "C'est trop tard", "nextId": "E3"}
+        ]
+    },
+    // Manger en TT
+    45: {
+        "text": "Ça y est, c’est l’heure de manger, enfin ! Après une matinée bien remplie, vous vous permettez un petit break bien mérité.",
+        "options": [
+            { "label": "Vous mangez devant votre série préférée", "nextId": 46 },
+            { "label": "Un petit Huel® et c'est parti pour le bureau!", "nextId": 26 },
+        ]
+    },
+    46: {
+        "text": "Quel banger cette série ! Les cliffhangers, la violence, le s*xe, les retournements de situation, et l'autoplay de Netflix vous volent encore une fois votre temps de cerveau disponible.",
+        "options": [
+            { "label": "Allez encore un épisode !", "nextId": 47 },
+        ]
+    },
+    47: {
+        "text": "Quoi? C'était en fait sa soeur? Mais noooon !",
+        "options": [
+            { "label": "Allez encore un épisode !", "nextId": 48 },
+        ]
+    },
+    48: {
+        "text": "Mais attends c'est qui lui déjà c'est le père ou le frère je ne sais plus!",
+        "options": [
+            { "label": "Allez encore un épisode !", "nextId": 49 },
+        ]
+    },
+    49: {
+        "text": "Il était pas mort lui ? Ah non c'était dans le futur.",
+        "options": [
+            { "label": "Allez encore un épisode !", "nextId": 50 },
+        ]
+    },
+    50: {
+        "text": "Le dernier épisode était vraiment à chier... Ah déjà 17h ? Super !",
+        "options": [
+            { "label": "Bravo pour cette journée de travail", "nextId": "E6" },
         ]
     },
     "E1": {
