@@ -294,7 +294,7 @@ const storyData = {
         ]
     },
     32: {
-        "text": "Vous êtes plongé dans votre travail, les yeux fixés sur l'écran. Rien ne peut vous déconcentrer, vous imaginez déjà les compliments que votre supérieur va vous faire au prochain 1-to-1 ! Soudain, une voix familière vous ramène à la réalité: \"Pause café ?\" Votre collègue, sourire aux lèvres, se tient derrière votre bureau, une tasse à la main. Vous hésitez un instant car vous étiez à deux doigts de finir votre tâche… Finalement vous :",
+        "text": "Vous êtes plongé dans votre travail, les yeux fixés sur l'écran. Rien ne peut vous déconcentrer, vous imaginez déjà les compliments que votre supérieur va vous faire au prochain 1-to-1 ! Soudain, une voix familière vous ramène à la réalité: \"Hey xxx, pause café ?\" Votre collègue, sourire aux lèvres, se tient derrière votre bureau, une tasse à la main. Vous hésitez un instant car vous étiez à deux doigts de finir votre tâche… Finalement vous :",
         "options": [
             { "label" : "Acceptez la proposition" , "nextId": 321 },
             { "label" : "Refusez poliment", "nextId": 322 } 
@@ -338,7 +338,7 @@ const storyData = {
         ]
     },
     35: {
-        "text": "Tu tombes bien, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).", 
+        "text": "Tu tombes bien xxx, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).", 
         "options": [
             { "label": "Dis-m'en plus!", "nextId": 41 },
             { "label": "Ah oui super, euh il faut que j'y aille !", "nextId": 41}
@@ -371,13 +371,13 @@ const storyData = {
         ]
     },
     38: {
-        "text": "Waouh! Quel corps! Quelle machine de guerre ! Tu as le plus beau corps que je n'ai jamais vu. Bravo. Tu transmettras mes félicitations à ta daronne. Je ne vois pas comment je pourrais être le chef d'une telle force de la nature. Prends ma place, je t'en supplie.",
+        "text": "Waouh! xxx ! Quel corps! Quelle machine de guerre ! Tu as le plus beau corps que je n'ai jamais vu. Bravo. Tu transmettras mes félicitations à ta daronne. Je ne vois pas comment je pourrais être le chef d'une telle force de la nature. Prends ma place, je t'en supplie.",
         "options": [
             { "label": "Bien joué beau goss", "nextId": "E1" }
         ]
     },
     39: {
-        "text": "Mais qu’est ce que c’est que cette PJ ? Vous vous foutez de la gueule du monde ? Je vous paye pour que vous vous fassiez bronzer la raie au cap d’agde ? Dégagez, je veux plus vous voir",
+        "text": "Mais qu’est ce que c’est que cette PJ, xxx ? Vous vous foutez de la gueule du monde ? Je vous paye pour que vous vous fassiez bronzer la raie au cap d’agde ? Dégagez, je veux plus vous voir",
         "options": [
             { "label": "Faire vos adieux", "nextId": "E2" }
         ]
