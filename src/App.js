@@ -1,11 +1,11 @@
+import { Box, Button, Container, Typography } from '@mui/material';
 import React, { useState } from 'react';
-import StoryCard from './components/StoryCard';
 import ChoiceButtons from './components/ChoiceButtons';
 import DropEmoji from './components/DropEmoji';
+import LocationPicture from './components/LocationPicture';
 import NameForm from './components/NameForm'; // Import du nouveau composant
+import StoryCard from './components/StoryCard';
 import storyData from './data/storyData';
-import { Box, Container, Typography, Button } from '@mui/material';
-import backgroundImage from './assets/office.jpg';
 
 function App() {
   const [currentStoryId, setCurrentStoryId] = useState(1);
@@ -38,7 +38,7 @@ function App() {
   };
 
   // Fetch the current story or fallback to a default message if the story is undefined
-  const currentStory = storyData[currentStoryId] || { text: 'No story available.', options: [] };
+  const currentStory = storyData[currentStoryId] || { text: 'No story available.', options: [], location: "BlueSky" };
 
   const getPersonalizedStory = (storyText, userName) => {
     return storyText.replace('xxx', userName);
@@ -47,7 +47,6 @@ function App() {
   return (
     <Container
       sx={{
-        backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh',
@@ -57,6 +56,7 @@ function App() {
         alignItems: 'center',
       }}
     >
+      <LocationPicture place={currentStory.location} />
       <Box
         sx={{
           backgroundColor: "#FFFFFF90",
