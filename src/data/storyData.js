@@ -57,7 +57,7 @@ const storyData = {
     6: {
         "text": "Ooopsie vous avez raté le réveil ! Les enfants sont levés depuis une heure et sont en pyjama devant les dessins animés, pas question d'aller au travail aujourd'hui. Vous les lancez à l'école en pyjama puis revenez pour commencer votre journée de télétravail.",
         "options": [
-            { "label" : "Vous rentrez votre mot de passe" , "nextId": 7 }
+            { "label": "Vous rentrez votre mot de passe", "nextId": 7 }
         ]
     },
     7: {
@@ -110,8 +110,8 @@ const storyData = {
     12: {
         "text": "Chouette c’est l’heure de ce workshop tant attendu qui va révolutionner la politique produit de la boîte ! Lancez une pièce:",
         "coinflip": [
-            { "label": "Pile: la visio ne se lance pas : est-ce que c’est le wifi, le micro, ou la caméra ? Vous vous débattez pendant 50 minutes pour enfin entendre les participants se dire au revoir.", "nextId": 13 },
-            { "label": "Face: vous revêtez fièrement votre casque, regardez la webcam avec assurance, et entrez dans une visioconférence de 30 personnes. Vous tentez un « Bonjour ! » chaleureux, à qui personne ne répond. Ah mince vous étiez en mute. Pas grave, c’est le langage corporel qui parlera pour vous.", "nextId": 19 }
+            { "label": "Pile: la visio ne se lance pas : est-ce que c’est le wifi, le micro, ou la caméra ? Vous vous débattez pendant 50 minutes pour enfin entendre les participants se dire au revoir.", "nextId": 45 },
+            { "label": "Face: vous revêtez fièrement votre casque, regardez la webcam avec assurance, et entrez dans une visioconférence de 30 personnes. Vous tentez un « Bonjour ! » chaleureux, à qui personne ne répond. Ah mince vous étiez en mute. Pas grave, c’est le langage corporel qui parlera pour vous.", "nextId": 45 }
         ]
     },
     13: {
@@ -264,14 +264,14 @@ const storyData = {
     29: {
         "text": "Patatras ! Entre deux emails à votre supérieur, vous tapez votre bol de soupe encore fumante qui se déverse sur votre laptop… Une étincelle sort du ventilateur, un arc électrique traverse l’air, et et avant même de pouvoir réagir, vous sentez une douleur fulgurante vous parcourir le corps. Les muscles se contractent violemment, vous êtes figé, incapable de bouger. Le monde autour de vous semble devenir flou alors que la décharge électrique continue de vous traverser. Votre esprit vacille entre la réalité et un vide étrange.",
         "options": [
-            { "label" : "Tout devient noir", "nextId": "E3" }
+            { "label": "Tout devient noir", "nextId": "E3" }
         ]
     },
     30: {
         "text": "Dans la salle de pause déserte, les mots fléchés du jour ne sont qu’à moitié faits et une chocolatine de la veille est encore dans son emballage : quelle chance ! Alors que vous vous délectez de ce larcin, un collègue s’approche à grands pas, l’air souriant. Souhaitez-vous lui parler ?",
         "options": [
-            { "label" : "Oui", "nextId": 301 },
-            { "label" : "Non", "nextId": 302 }
+            { "label": "Oui", "nextId": 301 },
+            { "label": "Non", "nextId": 302 }
         ]
     },
     301: {
@@ -289,25 +289,25 @@ const storyData = {
     31: {
         "text": "Trois formules excel plus tard, vous finissez enfin ce rapport sur l’orga des tickets Jira. Fier de votre travail, vous rédigez un mail au petit oignon pour votre N+1, avec en PJ le rapport terminé. ",
         "options": [
-            { "label" : "Vous avez tellement hâte d'avoir les retours de votre chef, que vous envoyez l'email instantanément.", "nextId": 37 },
-            { "label" : "Vous prenez une petite pause bien méritée", "nextId": 30 }
+            { "label": "Vous avez tellement hâte d'avoir les retours de votre chef, que vous envoyez l'email instantanément.", "nextId": 37 },
+            { "label": "Vous prenez une petite pause bien méritée", "nextId": 30 }
         ]
     },
     32: {
         "text": "Vous êtes plongé dans votre travail, les yeux fixés sur l'écran. Rien ne peut vous déconcentrer, vous imaginez déjà les compliments que votre supérieur va vous faire au prochain 1-to-1 ! Soudain, une voix familière vous ramène à la réalité: \"Hey xxx, pause café ?\" Votre collègue, sourire aux lèvres, se tient derrière votre bureau, une tasse à la main. Vous hésitez un instant car vous étiez à deux doigts de finir votre tâche… Finalement vous :",
         "options": [
-            { "label" : "Acceptez la proposition" , "nextId": 321 },
-            { "label" : "Refusez poliment", "nextId": 322 } 
+            { "label": "Acceptez la proposition", "nextId": 321 },
+            { "label": "Refusez poliment", "nextId": 322 }
         ]
     },
     321: {
         "text": "Vous rejoignez pour une pause bien méritée. Après tout, quelques minutes de jeux vidéos/dés/mots fléchés pourraient même vous rendre plus productif par la suite !",
         "options": [
-            { "label" : "Cucurbitacé en 5 lettres ?", "nextId": 30 }
+            { "label": "Cucurbitacé en 5 lettres ?", "nextId": 30 }
         ]
     },
     322: {
-        "text": "Vous expliquez que vous êtes sur le point de terminer une tâche importante pour l’entreprise et ses actionnaires, et n'avez donc pas le temps pour un moment récréatif.", 
+        "text": "Vous expliquez que vous êtes sur le point de terminer une tâche importante pour l’entreprise et ses actionnaires, et n'avez donc pas le temps pour un moment récréatif.",
         "options": [
             { "label": "Casque sur les oreilles.", "nextId": 31 }
         ]
@@ -315,8 +315,8 @@ const storyData = {
     33: {
         "text": "Comment avez-vous pu oublier ça ? C’est aujourd’hui la présentation des objectifs Q1 de la fiscal year devant la hiérarchie, tout le monde vous attend au bureau depuis 15mn, vous décidez de :",
         "options": [
-            { "label" : "Speeder jusqu'au bureau", "nextId": 331 },
-            { "label" : "Rester à la maison", "nextId": 332 }
+            { "label": "Speeder jusqu'au bureau", "nextId": 331 },
+            { "label": "Rester à la maison", "nextId": 332 }
         ]
     },
     331: {
@@ -334,14 +334,14 @@ const storyData = {
     34: {
         "text": "Après avoir grillé trois feux rouges, et avoir garé la voiture en double file, vous voici enfin arrivé devant les bureaux : votre N+1 vous appelle alors pour vous féliciter de la présentation que vous avez réalisé tout en s’excusant de n’avoir pas pu se libérer pour y assister. Vous écrivez un compte rendu et l’envoyez à votre hiérarchie en célébrant les achievements de la dernière fiscal year",
         "options": [
-            { "label": "Une bonne chose de faite", "nextId": 13}
+            { "label": "Une bonne chose de faite", "nextId": 13 }
         ]
     },
     35: {
         "text": "Tu tombes bien xxx, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).", 
         "options": [
             { "label": "Dis-m'en plus!", "nextId": 41 },
-            { "label": "Ah oui super, euh il faut que j'y aille !", "nextId": 41}
+            { "label": "Ah oui super, euh il faut que j'y aille !", "nextId": 41 }
         ]
     },
     36: {
@@ -352,7 +352,7 @@ const storyData = {
         ]
     },
     361: {
-        "text" : "Vous motivez quelques collègues et finissez votre journée de travail en partageant quelques pintes avec eux.",
+        "text": "Vous motivez quelques collègues et finissez votre journée de travail en partageant quelques pintes avec eux.",
         "options": [
             { "label": "Tchin tchin!", "nextId": "E6" }
         ]
@@ -361,7 +361,7 @@ const storyData = {
         "text": "Vous devez absolument préparer la réunion synchro des OKR FY26 avant demain. Ce n’est pas encore ce soir que vous pourrez lire l’histoire du soir à votre fille...",
         "options": [
             { "label": "Au boulot!!", "nextId": 40 }
-        ] 
+        ]
     },
     37: {
         "text": "A peine après avoir cliqué sur le bouton que vous vous rendez compte de votre erreur : La pièce jointe que vous avez sélectionné est un de vos nudes, la tuile. Quelques secondes plus tard, vous recevez un appel de votre N+1.",
@@ -410,7 +410,7 @@ const storyData = {
     44: {
         "text": "Vous regardez en bas. Avant de vous jeter dans le vide, votre dernière pensée est pour votre N+1 : Vous avez oublié de mettre la PJ dans votre précédent mail, c’est la troisième fois cette semaine.",
         "options": [
-            { "label": "C'est trop tard", "nextId": "E3"}
+            { "label": "C'est trop tard", "nextId": "E3" }
         ]
     },
     // Manger en TT
