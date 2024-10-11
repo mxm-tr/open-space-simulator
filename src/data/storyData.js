@@ -70,8 +70,20 @@ const storyData = {
     8: {
         "text": "Bien au chaud dans votre pilou-pilou, le pyjama tout doux, vous entamez la lecture de vos emails. Enfoncé dans votre siège de bureau dernier cri, vous êtes tellement à l'aise que la fatigue commence à se faire sentir.",
         "coinflip": [
-            { "label": "Pile: Vous vous secouez, allez chercher un café bien serré et repartez au charbon", "nextId": 10 },
-            { "label": "Face: Vous vous endormez, et êtes bien repartis pour une nouvelle nuit de sommeil", "nextId": 11 }
+            { "label": "Pile: Vous vous secouez, allez chercher un café bien serré et repartez au charbon", "nextId": "8_1" },
+            { "label": "Face: Vous vous endormez, et êtes bien repartis pour une nouvelle nuit de sommeil", "nextId": "8_2" }
+        ]
+    },
+    "8_1": {
+        "text": "Vous vous secouez, allez chercher un café bien serré et repartez au charbon!",
+        "options": [
+            { "label": "C'est parti!", "nextId": 10 },
+        ]
+    },
+    "8_2": {
+        "text": "Vous vous endormez, et êtes bien repartis pour une nouvelle nuit de sommeil...",
+        "options": [
+            { "label": "Zzz...", "nextId": 11 }
         ]
     },
     9: {
@@ -82,10 +94,10 @@ const storyData = {
         ]
     },
     10: {
-        "text": "Tu reçois une invitation Outlook pour une réunion à 12h30, que fais-tu ?",
+        "text": "Vous recevez une invitation Outlook pour une réunion à 12h30, que faites-vous ?",
         "options": [
-            { "label": "Super, un workshop agile sur le define de la prochaine roadmap FY25. Tu as hâte d’y être", "nextId": 12 },
-            { "label": "Tu souffles « Déjà que je travaille pas pendant mon temps de travail, c’est pas pour travailler sur le temps de midi », et tu refuses l’invitation", "nextId": 13 }
+            { "label": "Super, un workshop agile sur le define de la prochaine roadmap FY25. Vous avez hâte d’y être", "nextId": 12 },
+            { "label": "Vous soufflez « Déjà que je travaille pas pendant mon temps de travail, c’est pas pour travailler sur le temps de midi », et vous refusez l’invitation", "nextId": 13 }
         ]
     },
     11: {
@@ -102,16 +114,28 @@ const storyData = {
         ]
     },
     "11_2": {
-        "text": "Comme un noob, vous n’avez rien prévu et votre ordinateur s’est mis en veille au bout de 10 minutes. Vous vous réveillez 3 heures plus tard, en panique, déverrouillez l’appareil et avez 5 appels manqués de votre supérieur.",
+        "text": "Comme un noob, vous n’avez rien prévu et votre ordinateur s’est mis en veille au bout de 10 minutes. Vous vous réveillez 3 heures plus tard, en panique !",
         "options": [
-            { "label": "Oops !", "nextId": 45 },
+            { "label": "Dévérouillez votre PC", "nextId": 14 },
         ]
     },
     12: {
-        "text": "Chouette c’est l’heure de ce workshop tant attendu qui va révolutionner la politique produit de la boîte ! Lancez une pièce:",
+        "text": "Chouette c’est l’heure de ce workshop tant attendu qui va révolutionner la politique produit de la boîte !",
         "coinflip": [
-            { "label": "Pile: la visio ne se lance pas : est-ce que c’est le wifi, le micro, ou la caméra ? Vous vous débattez pendant 50 minutes pour enfin entendre les participants se dire au revoir.", "nextId": 45 },
-            { "label": "Face: vous revêtez fièrement votre casque, regardez la webcam avec assurance, et entrez dans une visioconférence de 30 personnes. Vous tentez un « Bonjour ! » chaleureux, à qui personne ne répond. Ah mince vous étiez en mute. Pas grave, c’est le langage corporel qui parlera pour vous.", "nextId": 45 }
+            { "nextId": 12_1 },
+            { "nextId": 12_2 }
+        ]
+    },
+    12_1: {
+        "text": "La visio ne se lance pas : est-ce que c’est le wifi, le micro, ou la caméra ? Vous vous débattez pendant 50 minutes pour enfin entendre les participants se dire au revoir.",
+        "options": [
+            { "label": "Une bonne chose de faite !", "nextId": 45 }
+        ]
+    },
+    12_2: {
+        "text": "Vous revêtez fièrement votre casque, regardez la webcam avec assurance, et entrez dans une visioconférence de 30 personnes. Vous tentez un « Bonjour ! » chaleureux, à qui personne ne répond. Ah mince vous étiez en mute. Pas grave, c’est le langage corporel qui parlera pour vous.",
+        "options": [
+            { "label": "Une bonne chose de faite !", "nextId": 45 }
         ]
     },
     13: {
