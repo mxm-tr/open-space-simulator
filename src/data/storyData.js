@@ -458,14 +458,14 @@ const storyData = {
         "options": [
             { "label": "Bien joué beau goss", "nextId": "E1" }
         ],
-        "location": "House"
+        "location": "Boss"
     },
     39: {
         "text": "Mais qu’est ce que c’est que cette PJ, xxx ? Vous vous foutez de la gueule du monde ? Je vous paye pour que vous vous fassiez bronzer la raie au cap d’agde ? Dégagez, je veux plus vous voir",
         "options": [
             { "label": "Faire vos adieux", "nextId": "E2" }
         ],
-        "location": "Office"
+        "location": "Boss"
     },
     40: {
         "text": "Vous levez enfin la tête de votre ordinateur. Vous jetez un œil à l’horloge. 18H00. Quelle journée harassante. Vous vous étirez, et sentez que vous avez mal partout. La fenêtre ouverte laisse parvenir jusqu’à vous un faible courant d’air. Vous réalisez à quel point vous êtes fatigué de cette routine quotidienne. Et pour quel but ? Votre maigre salaire de 87k€ ? Vous vous levez.",

@@ -1,6 +1,7 @@
 import { Box, Slide } from '@mui/material';
 import CoworkerPicture from '../assets/coworker.jpg';
 import BlueSkyPicture from '../assets/blue-sky.jpg';
+import BossPicture from '../assets/boss.jpg';
 import ElevatorPicture from '../assets/elevator.jpg'
 import HousePicture from '../assets/house.png';
 import OfficePicture from '../assets/office.jpg';
@@ -12,6 +13,7 @@ import ToiletsPicture from '../assets/toilets.PNG';
 
 const LocationsImages = {
     BlueSky: BlueSkyPicture,
+    Boss: BossPicture,
     Break: BreakPicture,
     Coworker: CoworkerPicture,
     Elevator: ElevatorPicture,
