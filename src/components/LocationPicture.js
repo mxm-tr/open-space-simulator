@@ -1,17 +1,25 @@
 import { Box, Slide } from '@mui/material';
+import CoworkerPicture from '../assets/coworker.jpg';
 import BlueSkyPicture from '../assets/blue-sky.jpg';
+import ElevatorPicture from '../assets/elevator.jpg'
 import HousePicture from '../assets/house.png';
 import OfficePicture from '../assets/office.jpg';
 import BreakPicture from '../assets/break.jpg';
+import OutsidePicture from '../assets/outside.jpg';
 import PubPicture from '../assets/pub.jpg';
+import RestaurantPicture from '../assets/restaurant.jpg';
 import ToiletsPicture from '../assets/toilets.PNG';
 
 const LocationsImages = {
-    House: HousePicture,
-    Office: OfficePicture,
     BlueSky: BlueSkyPicture,
     Break: BreakPicture,
+    Coworker: CoworkerPicture,
+    Elevator: ElevatorPicture,
+    House: HousePicture,
+    Office: OfficePicture,
+    Outside: OutsidePicture,
     Pub: PubPicture,
+    Restaurant: RestaurantPicture,
     Toilets: ToiletsPicture,
 };
 
@@ -26,10 +34,11 @@ const LocationPicture = ({ place: location }) => {
                             position: 'absolute',
                             zIndex: -1,
                             height: '100%',
-                            width: "100%",
-                            alignSelf: 'center',
-                            top: 0,
+                            maxWidth: "80%",
                             left: 0,
+                            right: 0,
+                            marginLeft: "auto",
+                            marginRight: "auto",
                         }}
                         src={entry[1]}
                     />
