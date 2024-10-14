@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/open-space-simulator/static/css/main.b5b10850.css",
-    "main.js": "/open-space-simulator/static/js/main.160de136.js",
+    "main.js": "/open-space-simulator/static/js/main.3fa3ab8b.js",
     "static/js/453.c76d04fb.chunk.js": "/open-space-simulator/static/js/453.c76d04fb.chunk.js",
     "static/media/office.jpg": "/open-space-simulator/static/media/office.767c03e6bc5a91dae8bd.jpg",
     "index.html": "/open-space-simulator/index.html",
     "main.b5b10850.css.map": "/open-space-simulator/static/css/main.b5b10850.css.map",
-    "main.160de136.js.map": "/open-space-simulator/static/js/main.160de136.js.map",
+    "main.3fa3ab8b.js.map": "/open-space-simulator/static/js/main.3fa3ab8b.js.map",
     "453.c76d04fb.chunk.js.map": "/open-space-simulator/static/js/453.c76d04fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5b10850.css",
-    "static/js/main.160de136.js"
+    "static/js/main.3fa3ab8b.js"
   ]
 }
