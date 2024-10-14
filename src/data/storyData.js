@@ -97,7 +97,7 @@ const storyData = {
         "text": "Vous recevez une invitation Outlook pour une réunion à 12h30, que faites-vous ?",
         "options": [
             { "label": "Super, un workshop agile sur le define de la prochaine roadmap FY25. Vous avez hâte d’y être", "nextId": 12 },
-            { "label": "Vous soufflez « Déjà que je travaille pas pendant mon temps de travail, c’est pas pour travailler sur le temps de midi », et vous refusez l’invitation", "nextId": 13 }
+            { "label": "Vous soufflez « Déjà que je travaille pas pendant mon temps de travail, c’est pas pour travailler sur le temps de midi », et vous refusez l’invitation", "nextId": 45 }
         ]
     },
     11: {
@@ -150,7 +150,7 @@ const storyData = {
         "text": "C’est la panique ! Votre N+1 et votre N+2 ont essayé de vous appeler 100 fois cette dernière demi-heure ! Vous prenez votre courage à deux mains et décidez :",
         "options": [
             { "label": "D’envoyer un message pour demander quelle urgence est à traiter, en vous excusant de vous être assoupi: votre intégrité ne vous sera pas reprochée !", "nextId": 33 },
-            { "label": "De ne rien faire : « La patience est le secret du grand travail. » disait Sénèque.", "nextId": 13 }
+            { "label": "De ne rien faire : « La patience est le secret du grand travail. » disait Sénèque.", "nextId": 45 }
         ]
     },
     15: {
@@ -314,7 +314,7 @@ const storyData = {
         "text": "Trois formules excel plus tard, vous finissez enfin ce rapport sur l’orga des tickets Jira. Fier de votre travail, vous rédigez un mail au petit oignon pour votre N+1, avec en PJ le rapport terminé. ",
         "options": [
             { "label": "Vous avez tellement hâte d'avoir les retours de votre chef, que vous envoyez l'email instantanément.", "nextId": 37 },
-            { "label": "Vous prenez une petite pause bien méritée", "nextId": 30 }
+            { "label": "Vous prenez une petite pause bien méritée", "nextId": 51 }
         ]
     },
     32: {
@@ -327,7 +327,7 @@ const storyData = {
     321: {
         "text": "Vous rejoignez pour une pause bien méritée. Après tout, quelques minutes de jeux vidéos/dés/mots fléchés pourraient même vous rendre plus productif par la suite !",
         "options": [
-            { "label": "Cucurbitacé en 5 lettres ?", "nextId": 30 }
+            { "label": "Cucurbitacé en 5 lettres ?", "nextId": 52 }
         ]
     },
     322: {
@@ -362,7 +362,7 @@ const storyData = {
         ]
     },
     35: {
-        "text": "Tu tombes bien xxx, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).", 
+        "text": "Tu tombes bien xxx, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).",
         "options": [
             { "label": "Dis-m'en plus!", "nextId": 41 },
             { "label": "Ah oui super, euh il faut que j'y aille !", "nextId": 41 }
@@ -473,6 +473,64 @@ const storyData = {
         "text": "Le dernier épisode était vraiment à chier... Ah déjà 17h ? Super !",
         "options": [
             { "label": "Bravo pour cette journée de travail", "nextId": "E6" },
+        ]
+    },
+    51: {
+        "text": "Rien de mieux qu'une petite pause pour se remettre les idées aux claires. Vous papotez autour d'un café (ou est-ce du goudron ?) fumant, à propos des derniers potins du bureau.",
+        "options": [
+            { "label": "\"Une capote dans les toilettes de gauche ? T'es sûr ?\"", "nextId": 52 },
+        ]
+    },
+    52: {
+        "text": "Alors que vous êtes en train de vous dire que ce serait vraiment bien d'avoir un \"Journal du bureau\", un collègue s’approche à grands pas, l’air souriant. Souhaitez-vous lui parler ?",
+        "options": [
+            { "label": "Oui", "nextId": 53 },
+            { "label": "Non", "nextId": 54 },
+        ]
+    },
+    53: {
+        "text": "Vous lui adressez un petit sourire qu'il prend comme un signe d'encouragement. Il commence: \"Tu ne vas pas le croire, mais j'ai craqué pour un poulailler connecté récemment, et c’est clairement l’une des meilleures décisions que j’ai prises ! Je pensais que ça allait être juste un petit gadget sympa, mais en fait, ça change complètement la donne.\"",
+        "options": [
+            { "label": "\"Oh tu sais moi les animaux... Je vais peut être y all...", "nextId": 56 },
+            { "label": "J'adore ce que tu me racontes", "nextId": 56 }
+        ]
+    },
+    54: {
+        "text": "KOFF KOFF COFFE. Je suis désolé.e, je suis malade, il vaut mieux que je te contamine pas, à plus !",
+        "options": [
+            { "label": "Vous vous esquivez en toussant de plus belle", "nextId": 55 }
+        ]
+    },
+    55: {
+        "text": " Tunnel évité ! Vous auriez pu passer 45 minutes à écouter votre collègue baratiner des inepties, mais vous y avez échappé. Vous regardez votre montre, 12h00.",
+        "options": [
+            { "label": "Oh, c'est l'heure de manger", "nextId": 13 }
+        ]
+    },
+    56: {
+        "text": "Déjà, tout est automatisé ! La porte du poulailler s’ouvre et se ferme toute seule en fonction de la lumière du jour, donc plus besoin de se lever à l'aube pour libérer les poules ou de s'inquiéter de devoir rentrer tôt pour les sécuriser le soir. Ça, c'est un vrai soulagement. Et le top, c'est que je peux tout contrôler depuis mon téléphone. Je reçois des alertes si quelque chose ne va pas, par exemple si la porte ne se ferme pas correctement ou si la température à l’intérieur est trop basse.",
+        "options": [
+            { "label": "Chercher du regard un autre collègue pour vous sortir de là", "nextId": 57 },
+            { "label": "Hocher la tête, passionné", "nextId": 57 },
+        ]
+    },
+    57: {
+        "text": "Il y a aussi des capteurs pour surveiller l'humidité, la température et même les mouvements, histoire de s'assurer qu'elles sont toujours dans un environnement optimal. Si jamais une poule s’échappe ou qu’un prédateur rôde, hop, je suis prévenu direct. Et tu sais quoi ? J'ai même des statistiques sur la ponte. Le système détecte quand une poule pond un œuf et me donne un suivi précis. Ça permet de savoir si tout va bien niveau production, et surtout de vérifier qu'aucune des poules ne montre des signes de maladie ou de stress.",
+        "options": [
+            { "label": "Ah ouais j'adore les statistiques !", "nextId": 58 },
+        ]
+    },
+    58: {
+        "text": "Franchement, ça me simplifie la vie. Plus besoin de courir après les tâches quotidiennes, et j'ai une tranquillité d’esprit totale. C'est vraiment le futur du petit élevage, je te le dis. Si tu as des poules ou si tu penses en avoir, le poulailler connecté, c’est juste incontournable !",
+        "options": [
+            { "label": "C'est top, mais il faut vraiment que j'y aille", "nextId": 59 },
+            { "label": "Oulah, j'entends mon DX qui sonne, ça doit être urgent", "nextId": 59 }
+        ]
+    },
+    59: {
+        "text": "Vous arrivez enfin de vous éclipser de la salle de pause. Vous regardez votre montre, midi !",
+        "options": [
+            { "label": "A table!", "nextId": 13 }
         ]
     },
     "E1": {
