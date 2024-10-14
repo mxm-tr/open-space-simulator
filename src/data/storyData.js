@@ -150,7 +150,7 @@ const storyData = {
         "text": "C’est la panique ! Votre N+1 et votre N+2 ont essayé de vous appeler 100 fois cette dernière demi-heure ! Vous prenez votre courage à deux mains et décidez :",
         "options": [
             { "label": "D’envoyer un message pour demander quelle urgence est à traiter, en vous excusant de vous être assoupi: votre intégrité ne vous sera pas reprochée !", "nextId": 33 },
-            { "label": "De ne rien faire : « La patience est le secret du grand travail. » disait Sénèque.", "nextId": 13 }
+            { "label": "De ne rien faire : « La patience est le secret du grand travail. » disait Sénèque.", "nextId": 45 }
         ]
     },
     15: {
@@ -362,7 +362,7 @@ const storyData = {
         ]
     },
     35: {
-        "text": "Tu tombes bien xxx, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).", 
+        "text": "Tu tombes bien xxx, je voulais te parler de quelque chose ! Je t'avais déjà dit que je faisais du boomerang ? Tu vas me dire \"Mais qui s'intéresse au boomerang en 2024 ?\", eh bien moi, mon ami, et tu vas comprendre pourquoi c'est extraordinaire. Déjà, tout le monde croit que c’est juste un bout de bois qui revient quand tu le lances, mais c’est tellement plus que ça ! T’as plusieurs types de boomerangs : les boomerangs de retour classique, ceux de chasse (oui, à l’origine, on les utilisait pour chasser !).",
         "options": [
             { "label": "Dis-m'en plus!", "nextId": 41 },
             { "label": "Ah oui super, euh il faut que j'y aille !", "nextId": 41 }
@@ -514,7 +514,7 @@ const storyData = {
             { "label": "Hocher la tête, passionné", "nextId": 57 },
         ]
     },
-    57 : {
+    57: {
         "text": "Il y a aussi des capteurs pour surveiller l'humidité, la température et même les mouvements, histoire de s'assurer qu'elles sont toujours dans un environnement optimal. Si jamais une poule s’échappe ou qu’un prédateur rôde, hop, je suis prévenu direct. Et tu sais quoi ? J'ai même des statistiques sur la ponte. Le système détecte quand une poule pond un œuf et me donne un suivi précis. Ça permet de savoir si tout va bien niveau production, et surtout de vérifier qu'aucune des poules ne montre des signes de maladie ou de stress.",
         "options": [
             { "label": "Ah ouais j'adore les statistiques !", "nextId": 58 },
