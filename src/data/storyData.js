@@ -45,7 +45,7 @@ const storyData = {
             { "label": "Le télétravail", "nextId": 7 },
             { "label": "L’openspace", "nextId": 15 }
         ],
-        "location": "Office"
+        "location": "House"
     },
     4: {
         "text": "10h déjà ? Pas de panique, l’avenir appartient à ceux qui se lèvent tout court ! Vous ne vous laisserez pas dicter votre conduite par des lèves-tôt présentéistes, et de toute façon, vous rattrapez vos heures en fin de journée. De bonne humeur et bien reposé, vous choisissez:",
@@ -67,7 +67,7 @@ const storyData = {
         "options": [
             { "label": "Vous rentrez votre mot de passe", "nextId": 7 }
         ],
-        "location": "Office"
+        "location": "House"
     },
     7: {
         "text": "Aaaah les joies du télétravail, loin des collègues et des codes imposés par la société patriarcale. Pas besoin de vous habiller, vous préférez plutôt:",
@@ -75,7 +75,7 @@ const storyData = {
             { "label": "Porter un pilou-pilou ! Le pyjama intégral, tout doux", "nextId": 8 },
             { "label": "Ne rien porter, ça fait moins de lessive et entretient la frugalité", "nextId": 9 }
         ],
-        "location": "Office"
+        "location": "House"
     },
     8: {
         "text": "Bien au chaud dans votre pilou-pilou, le pyjama tout doux, vous entamez la lecture de vos emails. Enfoncé dans votre siège de bureau dernier cri, vous êtes tellement à l'aise que la fatigue commence à se faire sentir.",
@@ -102,7 +102,7 @@ const storyData = {
             { "nextId": 38 },
             { "nextId": "E2" }
         ],
-        "location": "Office"
+        "location": "House"
     },
     10: {
         "text": "Vous recevez une invitation Outlook pour une réunion à 12h30, que faites-vous ?",
@@ -117,14 +117,14 @@ const storyData = {
             { "nextId": "11_1" },
             { "nextId": "11_2" }
         ],
-        "location": "Office"
+        "location": "House"
     },
     "11_1": {
         "text": "Aucune chance, vous avez la technique du Youtube ouvert qui vous permet d’être affiché Disponible sur la messagerie instantanée.",
         "options": [
             { "label": "Quel boss !", "nextId": 45 },
         ],
-        "location": "Office"
+        "location": "House"
     },
     "11_2": {
         "text": "Comme un noob, vous n’avez rien prévu et votre ordinateur s’est mis en veille au bout de 10 minutes. Vous vous réveillez 3 heures plus tard, en panique !",
@@ -302,7 +302,7 @@ const storyData = {
             { "label": "La porte de gauche", "nextId": 282 },
 
         ],
-        "location": "Office"
+        "location": "Toilets"
     },
     281: {
         "text": "Vous ouvrez la porte et surprise : vous vous retrouvez face à votre N+2, et vous regarde avec surprise, un dossier à la main. \"Euh... bonjour,\" bafouille-t-il, visiblement embarrassé par la situation inattendue. Vous sentez une bouffée de gêne vous envahir alors que vous essayez de trouver quoi dire. Après un moment de silence tendu, il vous adresse un sourire crispé et vous demande d'un ton peu convaincant : \"Eh bien, puisque nous sommes ici, pourquoi ne pas discuter de ce rapport que vous devez me remettre aujourd'hui?\" Vous réalisez que cette rencontre fortuite pourrait bien déterminer l'avenir de votre carrière…",
@@ -331,21 +331,21 @@ const storyData = {
             { "label": "Oui", "nextId": 301 },
             { "label": "Non", "nextId": 302 }
         ],
-        "location": "Office"
+        "location": "Break"
     },
     301: {
         "text": "Vous le saluez, cela fait longtemps que vous ne l’aviez pas vu ! Une poignée de mains ferme et professionnelle s’ensuit",
         "options": [
             { "label": "Tunnel en approche", "nextId": 35 }
         ],
-        "location": "Office"
+        "location": "Break"
     },
     302: {
         "text": "Vous avez la technique pour ce genre de situation : vous dégainez votre téléphone et marchez d’un pas rapide et assuré, tête baissée.",
         "options": [
             { "label": "Tunnel évité!", "nextId": 36 }
         ],
-        "location": "Office"
+        "location": "Break"
     },
     31: {
         "text": "Trois formules excel plus tard, vous finissez enfin ce rapport sur l’orga des tickets Jira. Fier de votre travail, vous rédigez un mail au petit oignon pour votre N+1, avec en PJ le rapport terminé. ",
@@ -396,7 +396,7 @@ const storyData = {
         "options": [
             { "label": "Kof kof, snif snif", "nextId": 12 }
         ],
-        "location": "Office"
+        "location": "House"
     },
     34: {
         "text": "Après avoir grillé trois feux rouges, et avoir garé la voiture en double file, vous voici enfin arrivé devant les bureaux : votre N+1 vous appelle alors pour vous féliciter de la présentation que vous avez réalisé tout en s’excusant de n’avoir pas pu se libérer pour y assister. Vous écrivez un compte rendu et l’envoyez à votre hiérarchie en célébrant les achievements de la dernière fiscal year",
@@ -411,7 +411,7 @@ const storyData = {
             { "label": "Dis-m'en plus!", "nextId": 41 },
             { "label": "Ah oui super, euh il faut que j'y aille !", "nextId": 41 }
         ],
-        "location": "Office"
+        "location": "Break"
     },
     36: {
         "text": " Tunnel évité ! Vous auriez pu passer 30 minutes à écouter votre collègue baratiner des dingueries, mais vous y avez échappé. Vous regardez votre montre, 16h30.",
@@ -419,14 +419,14 @@ const storyData = {
             { "label": "Oh, c'est l'heure de l'apéro!", "nextId": 361 },
             { "label": "Pas de repos pour les guerriers", "nextId": 362 }
         ],
-        "location": "Office"
+        "location": "Break"
     },
     361: {
         "text": "Vous motivez quelques collègues et finissez votre journée de travail en partageant quelques pintes avec eux.",
         "options": [
             { "label": "Tchin tchin!", "nextId": "E6" }
         ],
-        "location": "Office"
+        "location": "Pub"
     },
     362: {
         "text": "Vous devez absolument préparer la réunion synchro des OKR FY26 avant demain. Ce n’est pas encore ce soir que vous pourrez lire l’histoire du soir à votre fille...",
