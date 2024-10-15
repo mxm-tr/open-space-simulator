@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/open-space-simulator/static/css/main.b5b10850.css",
-    "main.js": "/open-space-simulator/static/js/main.cf12f773.js",
+    "main.js": "/open-space-simulator/static/js/main.60194030.js",
     "static/js/453.c76d04fb.chunk.js": "/open-space-simulator/static/js/453.c76d04fb.chunk.js",
     "static/media/toilets.PNG": "/open-space-simulator/static/media/toilets.88c67392e2eb597f073f.PNG",
     "static/media/restaurant.jpg": "/open-space-simulator/static/media/restaurant.3a4d15c522f1b2be0480.jpg",
@@ -16,11 +16,11 @@
     "static/media/pub.jpg": "/open-space-simulator/static/media/pub.7e7d8c836b235570dd3e.jpg",
     "index.html": "/open-space-simulator/index.html",
     "main.b5b10850.css.map": "/open-space-simulator/static/css/main.b5b10850.css.map",
-    "main.cf12f773.js.map": "/open-space-simulator/static/js/main.cf12f773.js.map",
+    "main.60194030.js.map": "/open-space-simulator/static/js/main.60194030.js.map",
     "453.c76d04fb.chunk.js.map": "/open-space-simulator/static/js/453.c76d04fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5b10850.css",
-    "static/js/main.cf12f773.js"
+    "static/js/main.60194030.js"
   ]
 }
