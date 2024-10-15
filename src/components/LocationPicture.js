@@ -37,6 +37,7 @@ const LocationPicture = ({ place: location }) => {
                             zIndex: -1,
                             height: '100%',
                             maxWidth: "80%",
+                            objectFit: "cover",
                             left: 0,
                             right: 0,
                             marginLeft: "auto",
