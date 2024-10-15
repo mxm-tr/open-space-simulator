@@ -16,6 +16,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - run: npm install
       - run: npm run deploy
         env:
           github_token: ${{ secrets.GITHUB_TOKEN }}
