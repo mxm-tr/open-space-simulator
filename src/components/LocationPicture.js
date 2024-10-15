@@ -29,7 +29,7 @@ const LocationPicture = ({ place: location }) => {
     return (
         <>
             {Object.entries(LocationsImages).map(entry => {
-                return <Slide direction="right" in={entry[0] === location} mountOnEnter unmountOnExit>
+                return <Slide direction="right" key={entry} in={entry[0] === location} mountOnEnter unmountOnExit>
                     <Box
                         component='img'
                         sx={{
@@ -37,6 +37,7 @@ const LocationPicture = ({ place: location }) => {
                             zIndex: -1,
                             height: '100%',
                             maxWidth: "80%",
+                            objectFit: "cover",
                             left: 0,
                             right: 0,
                             marginLeft: "auto",
