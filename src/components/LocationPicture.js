@@ -29,7 +29,7 @@ const LocationPicture = ({ place: location }) => {
     return (
         <>
             {Object.entries(LocationsImages).map(entry => {
-                return <Slide direction="right" in={entry[0] === location} mountOnEnter unmountOnExit>
+                return <Slide direction="right" key={entry} in={entry[0] === location} mountOnEnter unmountOnExit>
                     <Box
                         component='img'
                         sx={{
