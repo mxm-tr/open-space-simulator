@@ -1,0 +1,8 @@
+{
+  "short_name": "Open Space Simulator",
+  "name": "Open Space Simulator",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
